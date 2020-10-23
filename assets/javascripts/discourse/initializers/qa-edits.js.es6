@@ -228,7 +228,7 @@ function initPlugin(api) {
     if (
       attrs.canCreatePost &&
       attrs.qa_enabled &&
-      // !attrs.firstPost &&
+      !attrs.firstPost &&
       !attrs.reply_to_post_number
     ) {
       let args = {
